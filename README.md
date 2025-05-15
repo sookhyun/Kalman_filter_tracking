@@ -9,3 +9,5 @@ $\bullet$ inital commit - https://github.com/sPHENIX-Collaboration/coresoftware/
 
 $\bullet$ compatibility update - https://github.com/sPHENIX-Collaboration/coresoftware/pull/687
 
+Note that the code here is outdated and incompatible with current sPHENIX software, which has evolved continuously since the development of this code. The main algorithms for vertex finding using 3 hits on MVTX layers are implemented in PHG4InitZVertexing and the ones for extending triplets to quadruplets by adding an INTT hit are found in PHG4PatternReco in source directory. Both heavily utilizes CellularAutomaton and HelixKalmanFilter. 
+
