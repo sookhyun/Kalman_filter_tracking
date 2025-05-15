@@ -1,0 +1,11 @@
+Universe       = vanilla
+Notification   = Never
+Priority       = +1
+Input           = /dev/null 
+GetEnv          = True
+Initialdir     = /sphenix/user/shlee/coresoftware/patreco18
+Executable     = run_pion_pythia_pileup.sh
++Experiment     = "PHENIX"
++Job_Type       = "highmem"
+Requirements = CPU_Experiment == "phenix"
+Queue
